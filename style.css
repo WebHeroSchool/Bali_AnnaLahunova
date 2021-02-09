@@ -67,20 +67,25 @@
   background-size: 100%;
 }
 
+.info{
+  display: flex;
+  justify-content: space-between;
+}
 .main{
-  padding-right: 50%;
+  position: relative;
   text-align: center;
+  width: 43%;
 }
 
 .main__title{
-  font: 700 200px/265px pt_serif, arial, helvetica, sans-serif;
+  font: 200px/265px pt_serifbold, arial, helvetica, sans-serif;
   color: #F8EEE4;
   opacity: .4;
   margin: 0;
 }
 
 .main__second-title{
-  font: 700 70px/93px pt_serif, arial, helvetica, sans-serif;
+  font: 70px/93px pt_serifbold, arial, helvetica, sans-serif;
   color: #F8EEE4;
   padding: 0 0 14px 0;
   margin: -103px 0 0 67px;
@@ -103,4 +108,18 @@
   text-decoration: none;
   border-radius: 48px;
   margin-right: 22%;
+}
+
+.main__button:hover{
+  opacity: .5;
+}
+
+.img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img__pic{
+  padding-left: 5px;
 }
