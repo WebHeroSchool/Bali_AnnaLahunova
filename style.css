@@ -746,6 +746,8 @@
     font: 20px/22px museosanscyrl, arial, helvetica, sans-serif;
     text-align: center;
     width: 324px;
+    padding: 0 0 25px 0;
+    margin: auto;
   }
 
   .main__button {
