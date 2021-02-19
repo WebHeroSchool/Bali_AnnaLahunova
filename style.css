@@ -69,6 +69,7 @@
   background: no-repeat url('img/mainImg.png');
   background-size: 100%;
   background-attachment: fixed;
+  margin: 0;
 }
 
 .info{
@@ -101,7 +102,7 @@
   font: 16px/19px museosanscyrl, arial, helvetica, sans-serif;
   width: 410px;
   color: #F8EEE4;
-  margin: 0 0 29px 0;
+  margin: 0 0 29px 121px;
   text-align: left;
 }
 
@@ -152,12 +153,12 @@
 @media(min-width: 1920px){
   .header {
     width: 95%;
-    margin-left: 112px;
+    margin-left: 119px;
     padding-bottom: 137px;
   }
 
   .header__logo{
-    margin-top: 80px;
+    margin-top: 87px;
     width: 147px;
     height: 55px;
   }
@@ -168,28 +169,28 @@
   }
 
   .menu__item:last-child {
-      margin-right: 107px;
+      margin-right: 121px;
   }
 
   .menu{
-    margin-top: 93px;
+    margin-top: 102px;
   }
 
   .main__title{
     font: 280px/371px pt_serifbold, arial, helvetica, sans-serif;
-    margin-left: 88px;
+    margin-left: 98px;
   }
 
   .main__second-title {
     font: 98px/130px pt_serifbold, arial, helvetica, sans-serif;
-    margin: -145px 0 0 193px;
+    margin: -145px 0 0 203px;
   }
 
   .main__subtitle {
     margin: auto;
     font: 22px/27px museosanscyrl, arial, helvetica, sans-serif;
     width: 551px;
-    margin: 5px 0 9px 213px;
+    margin: 6px 0 37px 221px;
     text-align: left;
   }
 
@@ -197,7 +198,7 @@
     font: 22px/27px museosanscyrl, arial, helvetica, sans-serif;
     padding: 17px 89px;
     border-radius: 48px;
-    margin-right: 12%;
+    margin-right: 11%;
   }
 
   .img{
@@ -218,7 +219,7 @@
   .img__pic3 {
     width: 206px;
     height: 380px;
-    margin: 0 -25px 0 32px;
+    margin: 0 -13px 0 32px;
   }
 }
 
@@ -226,15 +227,15 @@
   .header {
     width: 102%;
     padding-bottom: 90px;
-    padding-left: 53px;
+    padding-left: 61px;
   }
 
   .header__logo {
-    margin-top: 55px;
+    margin-top: 63px;
   }
 
   .menu{
-    margin-top: 65px;
+    margin-top: 71px;
   }
 
   .menu__item {
@@ -243,23 +244,23 @@
   }
 
   .menu__item:last-child {
-    margin-right: 142px;
+    margin-right: 157px;
   }
 
   .main__title{
     font: 200px/265px pt_serifbold, arial, helvetica, sans-serif;
-    margin: 5px 0 0 61px;
+    margin: 5px 0 0 70px;
   }
 
   .main__second-title{
     font: 70px/95px pt_serifbold, arial, helvetica, sans-serif;
-    margin: -104px 0 0 135px;
+    margin: -104px 0 0 144px;
   }
 
   .main__subtitle {
     margin: auto;
     font: 16px/19px museosanscyrl, arial, helvetica, sans-serif;
-    margin: 0 0 25px 149px;
+    margin: 0 0 25px 157px;
     width: 405px;
     text-align: left;
   }
@@ -267,7 +268,7 @@
   .main__button{
     font: 16px/20px museosanscyrl, arial, helvetica, sans-serif;
     padding: 12px 62px;
-    margin-right: 12%;
+    margin-right: 11%;
   }
 
   .img{
@@ -288,7 +289,7 @@
   .img__pic3 {
     width: 149px;
     height: 270px;
-    margin: 0 -9px 0 23px;
+    margin: 0 0 0 23px;
   }
 }
 
@@ -359,7 +360,7 @@
   }
 
   .menu__item:last-child {
-    margin-right: 139px;
+    margin-right: 138px;
   }
 
   .menu__item {
@@ -368,39 +369,39 @@
   }
 
   .img{
-    padding-left: 74px;
+    padding-left: 71px;
   }
 
  .header {
-   width: 112%;
+   width: 111%;
    padding-bottom: 94px;
    padding-left: 0;
   }
 
  .header__logo{
-   margin: 55px 0 0 33px;
+   margin: 63px 0 0 41px;
   }
 
  .menu{
-   margin-top: 67px;
+   margin-top: 74px;
   }
 
  .main__title {
   font: 200px/265px pt_serifbold, arial, helvetica, sans-serif;
-  margin: 5px 0 0 14px;
+  margin: 5px 0 0 16px;
   }
 
  .main__second-title {
-    margin: -103px 0 0 82px;
+    margin: -103px 0 0 91px;
   }
 
   .main__subtitle{
-    margin: 0 0 25px 49px;
-    width: 380px;
+    margin: 0 0 25px 58px;
+    width: 389px;
   }
 
   .main__button {
-    margin-right: 29%;
+    margin-right: 26%;
   }
 
   .img__pic1 {
@@ -415,15 +416,15 @@
   }
 
   .img__pic3 {
-    width: 101px;
+    width: 38px;
     height: 270px;
-    margin: 0 -9px 0 25px;
+    margin: 0 0 0 25px;
   }
 }
 
 @media(max-width: 850px){
   .header {
-    width: 120%;
+    width: 113%;
   }
 
   .main__subtitle {
@@ -440,9 +441,36 @@
     font: 66px/93px pt_serifbold, arial, helvetica, sans-serif;
     margin: -104px 0 0 78px;
   }
+
+  .img__pic1 {
+    width: 210px;
+    height: auto;
+    margin-right: 21px;
+  }
+
+  .img__pic2 {
+    width: 192px;
+    height: auto;
+  }
+
+  .img__pic3 {
+    width: 38px;
+    height: 253px;
+    margin: 0 0 0 25px;
+  }
 }
 
-@media (min-width: 651px) and (max-width: 776px){
+@media (min-width: 650px) and (max-width: 776px){
+  .menu{
+    display: none;
+  }
+
+  .main {
+    position: relative;
+    text-align: center;
+    width: 98%;
+  }
+
   .body{
     background: no-repeat url('img/mainMobile.png');
     background-size: cover;
@@ -453,28 +481,26 @@
   }
 
   .header {
-    width: 59%;
-    padding: 10px 0 0 0;
-    margin: 10px 0 15% 20px;
+    width: 84%;
+    padding: 0;
+    margin: 0 0 16% 0;
   }
 
   .main__subtitle {
     font: 15px/19px museosanscyrl, arial, helvetica, sans-serif;
     width: 350px;
     text-align: center;
+    padding: 0 0 25px 0;
+    margin: auto;
   }
 
   .main__button {
-    margin: 0 0 174% 40%;
+    margin: 0;
     white-space: nowrap;
   }
 
-  .menu{
-    display: none;
-  }
-
   .img{
-    visibility: hidden;
+    display: none;
   }
 
   .menu__btn {
@@ -562,6 +588,12 @@
     display: none;
   }
 
+  .main {
+    position: relative;
+    text-align: center;
+    width: 98%;
+  }
+
   .body{
     background: no-repeat url('img/mainMobile.png');
     background-size: cover;
@@ -572,24 +604,26 @@
   }
 
   .header {
-    width: 67%;
-    padding: 10px 0 0 0;
-    margin: 10px 0 15% 20px;
+    width: 84%;
+    padding: 0;
+    margin: 0 0 16% 0;
   }
 
   .main__subtitle {
     font: 15px/19px museosanscyrl, arial, helvetica, sans-serif;
     width: 350px;
     text-align: center;
+    padding: 0 0 25px 0;
+    margin: auto;
   }
 
   .main__button {
-    margin: 0 0 174% 39%;
+    margin: 0;
     white-space: nowrap;
   }
 
   .img{
-    visibility: hidden;
+    display: none;
   }
 
   .menu__btn {
@@ -687,18 +721,20 @@
   }
 
   .header {
-    width: 82%;
-    padding: 10px 0 0 0;
-    margin: 10px 0 15% 20px;
+    width: 84%;
+    padding: 14px 0 0 0;
+    margin: 0 0 16% 0;
   }
 
   .main {
     position: relative;
     text-align: center;
+    width: 100%;
     }
 
   .main__title {
     font: 200px/226px pt_serifbold, arial, helvetica, sans-serif;
+    margin: 0;
   }
 
   .main__second-title {
@@ -713,12 +749,12 @@
   }
 
   .main__button {
-    margin: 0 0 174% 55%;
+    margin: 0;
     white-space: nowrap;
   }
 
   .img{
-    visibility: hidden;
+    display: none;
   }
 
   .menu__btn {
@@ -757,7 +793,7 @@
     display: block;
     position: fixed;
     top: 0;
-    width: 47%;
+    width: 375px;
     height: 100%;
     margin: 0;
     padding: 175px 0;
@@ -808,35 +844,34 @@
   .body{
     background: no-repeat url('img/mainMobile.png');
     background-size: cover;
-    background-attachment: fixed;
   }
 
   .header__logo {
-    margin: 34px 0 0 33px;
+    margin: 42px 0 0 41px;
   }
 
   .header {
-    width: 92%;
-    padding: 0 0 54px 0;
+    width: 90%;
+    padding: 0 0 58px 0;
     margin: 0;
   }
 
   .main {
     position: relative;
     text-align: center;
-    width: 100%;
-    margin: 0 0 0 0;
+    width: 97%;
+    margin: 0;
   }
 
   .main__title {
     text-align: left;
-    padding-left: 8px;
     font: 170px/226px pt_serifbold, arial, helvetica, sans-serif;
+    margin: 0 0 0 16px;
   }
 
   .main__second-title {
     font: 60px/80px pt_serifbold, arial, helvetica, sans-serif;
-    margin: -78px 0 22px 67px;
+    margin: -78px 0 22px 69px;
   }
 
   .main__subtitle {
@@ -844,7 +879,7 @@
     font: 18px/22px museosanscyrl, arial, helvetica, sans-serif;
     text-align: center;
     width: 293px;
-    padding: 0 0 35px 8px;
+    padding: 0 0 35px 11px;
   }
 
   .main__button {
@@ -852,7 +887,7 @@
   }
 
   .img{
-    visibility: hidden;
+    display: none;
   }
 
   .menu__btn {
